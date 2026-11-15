@@ -1,0 +1,14 @@
+[project]
+name = "lince-portscan"
+version = "1.0.0"
+description = "Scanner de portas TCP com threads e captura de banner, feito para estudo"
+requires-python = ">=3.10"
+authors = [{ name = "Arthur Entsev" }]
+license = { text = "MIT" }
+
+[project.scripts]
+portscan = "portscan.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
