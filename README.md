@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/banner.svg" alt="Lince Portscan" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Lince Portscan" width="100%"></p>
 
 <p align="center">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-7227EF?style=for-the-badge&logo=python&logoColor=white">
@@ -16,7 +16,7 @@
 
 <a id="sobre"></a>
 
-<p><img src="assets/secao-01.svg" alt="Sobre o projeto" width="100%"></p>
+<p><img src="assets/secao-01.png" alt="Sobre o projeto" width="100%"></p>
 
 Quando comecei a estudar segurança, o Nmap parecia mágica. Você digita um IP e ele te devolve tudo que está rodando na máquina. Eu queria entender o que acontece por baixo, então resolvi escrever o meu próprio scanner do zero, só com a biblioteca padrão do Python.
 
@@ -24,7 +24,7 @@ O Lince Portscan faz um **TCP connect scan**, o mesmo tipo do `nmap -sT`. Ele te
 
 <a id="como-funciona"></a>
 
-<p><img src="assets/secao-02.svg" alt="Como funciona" width="100%"></p>
+<p><img src="assets/secao-02.png" alt="Como funciona" width="100%"></p>
 
 ```mermaid
 flowchart LR
@@ -51,7 +51,7 @@ Algumas decisões que tomei e por quê
 
 <a id="rodando"></a>
 
-<p><img src="assets/secao-03.svg" alt="Rodando na sua máquina" width="100%"></p>
+<p><img src="assets/secao-03.png" alt="Rodando na sua máquina" width="100%"></p>
 
 Não precisa instalar nada além do Python 3.10 ou mais novo.
 
@@ -86,7 +86,7 @@ python -m pytest -q
 
 Os testes sobem um servidor falso que finge ser um SSH, então dá para validar a leitura de banner sem depender de internet.
 
-<p><img src="assets/secao-04.svg" alt="Exemplo de saída" width="100%"></p>
+<p><img src="assets/secao-04.png" alt="Exemplo de saída" width="100%"></p>
 
 ```text
   lince portscan 1.0.0
@@ -101,7 +101,7 @@ Os testes sobem um servidor falso que finge ser um SSH, então dá para validar 
 
 <a id="aprendi"></a>
 
-<p><img src="assets/secao-05.svg" alt="O que eu aprendi" width="100%"></p>
+<p><img src="assets/secao-05.png" alt="O que eu aprendi" width="100%"></p>
 
 - Como funciona o three-way handshake na prática e por que um RST é diferente de um silêncio
 - A diferença entre `connect` e `connect_ex` e como tratar timeout sem travar o programa
@@ -117,7 +117,7 @@ Próximos passos que quero fazer
 
 <a id="estudos"></a>
 
-<p><img src="assets/secao-06.svg" alt="Estudei por aqui" width="100%"></p>
+<p><img src="assets/secao-06.png" alt="Estudei por aqui" width="100%"></p>
 
 Segui essas aulas e materiais para entender e aplicar tudo que está aqui.
 
